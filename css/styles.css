@@ -81,18 +81,12 @@ body {
   }
 }
 .top2 {
-  height: 55.5520833vw;
   background-image: url("bg1.jpg");
   width: 100vw;
   position: absolute;
   top: 48.046875vw;
 }
-.top3 {
-  height: 55.5520833vw;
-  background-color: #950101;
-  width: 100vw;
 
-}
 .hr1 {
   border-style: solid;
   border-width: 10px;
@@ -113,26 +107,35 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 .p2{
-  width: 52.0833333vw;
+  width: 64.0833333vw;
   color: white;
   margin-left: 26.0416667vw;
   margin-top: 6.51041667vw;
   font-family: 'Arvo', serif;
-  font-size: 2vw;
+  font-size: 3vw;
+  padding-bottom: 50px;
+}
+.top3 {
+  text-align: center;
+  font-size: 5vw;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.p3{
+  width: 64.0833333vw;
+  color: white;
+  margin-top: 6.51041667vw;
+  font-family: 'Arvo', serif;
+  font-size: 3vw;
+  margin-left: 18.0416667vw;
+  padding-bottom: 50px;
 }
 @media screen and (max-width: 1109px){
   .top2 {
-    height: 65.55vw;
     background-image: url("bg1.jpg");
     width: 100vw;
     position: absolute;
     top: 500px;
-  }
-  .top3 {
-    height: 55.5520833vw;
-    background-color: #950101;
-    width: 100vw;
-
   }
 }
 @media screen and (max-width: 965px){
